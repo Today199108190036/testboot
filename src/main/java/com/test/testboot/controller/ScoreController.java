@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/score")
 public class ScoreController {
     protected static Logger logger= (Logger) LoggerFactory.getLogger(ScoreController.class);
-    
+
     @Resource
     private ScoreService scoreService = new ScoreServiceImpl();
 
