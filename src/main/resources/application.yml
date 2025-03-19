@@ -1,0 +1,19 @@
+#应用服务 WEB 访问端口
+server:
+  port: 9090
+#数据库配置
+spring:
+  application:
+    name: testspringboot
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: zx6923531
+    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+#mybatis依赖
+mybatis:
+  #MyBatis Configuration确保在 application.properties 或 application.yml 文件中指定了正确的映射文件路径
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
