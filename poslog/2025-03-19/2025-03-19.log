@@ -1,0 +1,15 @@
+2025-03-19 17:33:52.863 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 45200 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-19 17:33:52.867 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-19 17:33:53.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-19 17:33:53.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-19 17:33:53.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-19 17:33:53.384 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-19 17:33:53.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-19 17:33:53.777 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.11 seconds (process running for 1.299)
+2025-03-19 17:34:15.120 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-19 17:34:15.148 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-19 17:34:15.208 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36976d8d
+2025-03-19 17:34:15.209 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-19 17:34:15.235 [http-nio-9090-exec-1] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 1097922851, id=1, stuId=901, cName=计算机, grade=98], Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80], Score [Hash = 1097983361, id=3, stuId=902, cName=计算机, grade=65], Score [Hash = 21947809, id=4, stuId=902, cName=中文, grade=88], Score [Hash = 21978568, id=5, stuId=903, cName=中文, grade=95], Score [Hash = 1098074661, id=6, stuId=904, cName=计算机, grade=70], Score [Hash = 35325026, id=7, stuId=904, cName=英语, grade=92], Score [Hash = 35355780, id=8, stuId=905, cName=英语, grade=94], Score [Hash = 1098165935, id=9, stuId=906, cName=计算机, grade=49], Score [Hash = 35416312, id=10, stuId=906, cName=英语, grade=83]]
+2025-03-19 17:35:37.888 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-19 17:35:37.892 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
