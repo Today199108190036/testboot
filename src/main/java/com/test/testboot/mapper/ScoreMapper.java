@@ -13,6 +13,16 @@ import java.util.List;
 */
 public interface ScoreMapper extends BaseMapper<Score> {
     List<Score> selectAll();
+
+    List<Score> selectById(int id);
+
+    boolean deleteById(int id);
+
+    boolean updateById(int id, int grade);
+
+    boolean updateByIdAll(int id, int stuId, String cName, int grade);
+
+    boolean insertById(Score score);
 }
 
 

@@ -1,0 +1,416 @@
+2025-03-20 00:01:44.990 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s717ms).
+2025-03-20 00:18:10.744 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s707ms).
+2025-03-20 00:33:39.877 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s134ms).
+2025-03-20 00:50:05.504 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s640ms).
+2025-03-20 01:06:01.229 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s725ms).
+2025-03-20 01:21:56.971 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s742ms).
+2025-03-20 01:31:42.556 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m15s577ms).
+2025-03-20 01:39:46.633 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m4s77ms).
+2025-03-20 01:56:12.283 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s654ms).
+2025-03-20 02:12:07.195 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s912ms).
+2025-03-20 02:28:32.941 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s737ms).
+2025-03-20 02:44:28.660 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s719ms).
+2025-03-20 03:00:53.542 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s883ms).
+2025-03-20 03:16:49.259 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s717ms).
+2025-03-20 03:34:21.689 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s117ms).
+2025-03-20 03:50:47.399 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s697ms).
+2025-03-20 04:08:19.082 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s752ms).
+2025-03-20 04:24:46.851 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s35ms).
+2025-03-20 04:42:33.359 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m39s337ms).
+2025-03-20 04:59:34.100 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s472ms).
+2025-03-20 05:17:06.920 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s343ms).
+2025-03-20 05:29:49.616 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m12s695ms).
+2025-03-20 05:48:24.164 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s733ms).
+2025-03-20 06:05:57.382 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s23ms).
+2025-03-20 06:23:03.120 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s959ms).
+2025-03-20 06:39:30.243 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m57s111ms).
+2025-03-20 06:57:34.014 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s873ms).
+2025-03-20 07:15:05.023 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s662ms).
+2025-03-20 07:31:06.526 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m52s907ms).
+2025-03-20 07:48:39.073 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m56s439ms).
+2025-03-20 08:06:10.116 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s730ms).
+2025-03-20 08:22:13.310 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m32s292ms).
+2025-03-20 08:36:26.242 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m5s641ms).
+2025-03-20 08:40:55.022 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m28s780ms).
+2025-03-20 08:42:39.575 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m44s553ms).
+2025-03-20 08:44:52.863 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s288ms).
+2025-03-20 08:46:46.953 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m54s89ms).
+2025-03-20 08:49:04.976 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m18s24ms).
+2025-03-20 08:50:52.718 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m47s742ms).
+2025-03-20 08:51:59.725 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m7s7ms).
+2025-03-20 08:54:50.912 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m51s187ms).
+2025-03-20 08:58:32.376 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m41s464ms).
+2025-03-20 09:00:42.020 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s644ms).
+2025-03-20 09:03:39.645 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m57s625ms).
+2025-03-20 09:05:51.580 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m11s935ms).
+2025-03-20 09:10:40.353 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m48s773ms).
+2025-03-20 09:14:34.727 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m54s374ms).
+2025-03-20 09:18:02.119 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m27s392ms).
+2025-03-20 09:21:54.298 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m52s178ms).
+2025-03-20 09:24:21.501 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s204ms).
+2025-03-20 09:29:26.640 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m5s138ms).
+2025-03-20 09:32:30.439 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m3s800ms).
+2025-03-20 09:33:43.657 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s217ms).
+2025-03-20 09:36:38.109 [http-nio-9090-exec-1] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80], Score [Hash = 1097983361, id=3, stuId=902, cName=计算机, grade=65], Score [Hash = 21947809, id=4, stuId=902, cName=中文, grade=88], Score [Hash = 21978568, id=5, stuId=903, cName=中文, grade=95], Score [Hash = 1098074661, id=6, stuId=904, cName=计算机, grade=70], Score [Hash = 35325026, id=7, stuId=904, cName=英语, grade=92], Score [Hash = 35355780, id=8, stuId=905, cName=英语, grade=94], Score [Hash = 1098165935, id=9, stuId=906, cName=计算机, grade=49], Score [Hash = 35416312, id=10, stuId=906, cName=英语, grade=83]]
+2025-03-20 09:49:25.309 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 09:49:25.312 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 10:23:39.441 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 50680 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 10:23:39.445 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 10:23:39.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:23:39.952 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 10:23:39.952 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 10:23:39.973 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 10:23:40.370 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:23:40.382 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.147 seconds (process running for 1.359)
+2025-03-20 10:23:55.567 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 10:23:55.600 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 10:23:55.660 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69d9c0f3
+2025-03-20 10:23:55.661 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 10:23:55.688 [http-nio-9090-exec-1] INFO  com.test.testboot.controller.ScoreController - []
+2025-03-20 10:23:59.466 [http-nio-9090-exec-2] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80]]
+2025-03-20 10:24:04.931 [http-nio-9090-exec-3] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80], Score [Hash = 1097983361, id=3, stuId=902, cName=计算机, grade=65], Score [Hash = 21947809, id=4, stuId=902, cName=中文, grade=88], Score [Hash = 21978568, id=5, stuId=903, cName=中文, grade=95], Score [Hash = 1098074661, id=6, stuId=904, cName=计算机, grade=70], Score [Hash = 35325026, id=7, stuId=904, cName=英语, grade=92], Score [Hash = 35355780, id=8, stuId=905, cName=英语, grade=94], Score [Hash = 1098165935, id=9, stuId=906, cName=计算机, grade=49], Score [Hash = 35416312, id=10, stuId=906, cName=英语, grade=83]]
+2025-03-20 10:24:05.940 [http-nio-9090-exec-4] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80], Score [Hash = 1097983361, id=3, stuId=902, cName=计算机, grade=65], Score [Hash = 21947809, id=4, stuId=902, cName=中文, grade=88], Score [Hash = 21978568, id=5, stuId=903, cName=中文, grade=95], Score [Hash = 1098074661, id=6, stuId=904, cName=计算机, grade=70], Score [Hash = 35325026, id=7, stuId=904, cName=英语, grade=92], Score [Hash = 35355780, id=8, stuId=905, cName=英语, grade=94], Score [Hash = 1098165935, id=9, stuId=906, cName=计算机, grade=49], Score [Hash = 35416312, id=10, stuId=906, cName=英语, grade=83]]
+2025-03-20 10:24:07.136 [http-nio-9090-exec-5] INFO  com.test.testboot.controller.ScoreController - [Score [Hash = 35173176, id=2, stuId=901, cName=英语, grade=80], Score [Hash = 1097983361, id=3, stuId=902, cName=计算机, grade=65], Score [Hash = 21947809, id=4, stuId=902, cName=中文, grade=88], Score [Hash = 21978568, id=5, stuId=903, cName=中文, grade=95], Score [Hash = 1098074661, id=6, stuId=904, cName=计算机, grade=70], Score [Hash = 35325026, id=7, stuId=904, cName=英语, grade=92], Score [Hash = 35355780, id=8, stuId=905, cName=英语, grade=94], Score [Hash = 1098165935, id=9, stuId=906, cName=计算机, grade=49], Score [Hash = 35416312, id=10, stuId=906, cName=英语, grade=83]]
+2025-03-20 10:24:27.918 [http-nio-9090-exec-7] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-03-20 10:28:56.918 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 50804 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 10:28:56.921 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 10:28:57.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:28:57.459 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 10:28:57.459 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 10:28:57.481 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 10:28:57.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:28:57.888 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.164 seconds (process running for 1.378)
+2025-03-20 10:29:03.960 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 10:29:03.991 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 10:29:04.052 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44799275
+2025-03-20 10:29:04.053 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 10:39:35.946 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 10:39:35.955 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 10:46:11.238 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 50996 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 10:46:11.241 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 10:46:11.764 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:46:11.765 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 10:46:11.765 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 10:46:11.783 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 10:46:12.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:46:12.199 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.172 seconds (process running for 1.402)
+2025-03-20 10:50:00.522 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51074 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 10:50:00.525 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 10:50:01.029 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:50:01.030 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 10:50:01.030 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 10:50:01.047 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 10:50:01.466 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 10:50:01.479 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.141 seconds (process running for 1.328)
+2025-03-20 10:51:22.363 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 10:51:22.399 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 10:51:22.457 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d83e73
+2025-03-20 10:51:22.458 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:00:29.624 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:00:29.632 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:08:02.679 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51331 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:08:02.682 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:08:03.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:08:03.178 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:08:03.178 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:08:03.199 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:08:03.590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:08:03.602 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.112 seconds (process running for 1.309)
+2025-03-20 11:08:34.354 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:08:34.365 [http-nio-9090-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2025-03-20 11:10:50.918 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51357 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:10:50.921 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:10:51.410 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:10:51.410 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:10:51.410 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:10:51.431 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:10:51.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:10:51.856 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.126 seconds (process running for 1.313)
+2025-03-20 11:11:02.484 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:13:02.453 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51398 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:13:02.456 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:13:02.944 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:13:02.945 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:13:02.945 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:13:02.969 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:13:03.372 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:13:03.385 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.117 seconds (process running for 1.3)
+2025-03-20 11:13:07.178 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:13:37.449 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51405 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:13:37.451 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:13:37.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:13:37.949 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:13:37.949 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:13:37.966 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:13:38.353 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:13:38.364 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.122 seconds (process running for 1.331)
+2025-03-20 11:13:49.749 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:14:00.680 [http-nio-9090-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:14:00.756 [http-nio-9090-exec-3] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ddd79a4
+2025-03-20 11:14:00.757 [http-nio-9090-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:15:44.643 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:15:44.649 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:16:03.692 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51452 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:16:03.695 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:16:04.190 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:16:04.190 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:16:04.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:16:04.210 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:16:04.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:16:04.621 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.128 seconds (process running for 1.319)
+2025-03-20 11:16:12.951 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:16:12.990 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:16:13.050 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33a4296e
+2025-03-20 11:16:13.050 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:20:37.652 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:20:37.656 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:21:43.105 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51514 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:21:43.109 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:21:43.609 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:21:43.610 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:21:43.610 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:21:43.633 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:21:44.040 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:21:44.052 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.139 seconds (process running for 1.33)
+2025-03-20 11:21:50.242 [http-nio-9090-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:21:50.281 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:21:50.345 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b0ed855
+2025-03-20 11:21:50.345 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:21:50.418 [http-nio-9090-exec-1] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+### The error may exist in file [/Users/zhaoxin/Documents/GitHub/testboot/target/classes/mapper/ScoreMapper.xml]
+### The error may involve com.test.testboot.mapper.ScoreMapper.insertById-Inline
+### The error occurred while setting parameters
+### SQL: insert into test.score (id, stu_id, c_name, grade)         values (?, stu_id = ?,                 c_name = ?, grade = ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+; Duplicate entry '1' for key 'score.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy85.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.insertById(Unknown Source)
+	at com.test.testboot.service.impl.ScoreServiceImpl.insertById(ScoreServiceImpl.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.test.testboot.service.impl.ScoreServiceImpl$$SpringCGLIB$$0.insertById(<generated>)
+	at com.test.testboot.controller.ScoreController.insertById(ScoreController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-03-20 11:22:56.532 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:22:56.536 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:22:59.613 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51531 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:22:59.616 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:23:00.132 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:23:00.133 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:23:00.133 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:23:00.152 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:23:00.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:23:00.569 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.152 seconds (process running for 1.354)
+2025-03-20 11:23:05.478 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:23:05.510 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:23:05.570 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7942804b
+2025-03-20 11:23:05.570 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:23:05.637 [http-nio-9090-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+### The error may exist in file [/Users/zhaoxin/Documents/GitHub/testboot/target/classes/mapper/ScoreMapper.xml]
+### The error may involve com.test.testboot.mapper.ScoreMapper.insertById-Inline
+### The error occurred while setting parameters
+### SQL: insert into test.score (id, stu_id, c_name, grade)         values (?, stu_id = ?, c_name = ?,grade = ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+; Duplicate entry '1' for key 'score.PRIMARY'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'score.PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:912)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy85.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333)
+	at jdk.proxy2/jdk.proxy2.$Proxy72.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.insertById(Unknown Source)
+	at com.test.testboot.service.impl.ScoreServiceImpl.insertById(ScoreServiceImpl.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:716)
+	at com.test.testboot.service.impl.ScoreServiceImpl$$SpringCGLIB$$0.insertById(<generated>)
+	at com.test.testboot.controller.ScoreController.insertById(ScoreController.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:925)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:593)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-03-20 11:23:43.430 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:23:43.436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:23:49.315 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51559 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:23:49.318 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:23:49.821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:23:49.822 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:23:49.822 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:23:49.843 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:23:50.230 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:23:50.243 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.123 seconds (process running for 1.332)
+2025-03-20 11:23:52.382 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:23:52.417 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:23:52.478 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69e45ce9
+2025-03-20 11:23:52.478 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-20 11:26:32.090 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-20 11:26:32.095 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-20 11:26:35.714 [main] INFO  com.test.testboot.TestbootApplication - Starting TestbootApplication using Java 17.0.14 with PID 51577 (/Users/zhaoxin/Documents/GitHub/testboot/target/classes started by zhaoxin in /Users/zhaoxin/Documents/GitHub/testboot)
+2025-03-20 11:26:35.717 [main] INFO  com.test.testboot.TestbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-20 11:26:36.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:26:36.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-20 11:26:36.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20 11:26:36.224 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-20 11:26:36.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-20 11:26:36.628 [main] INFO  com.test.testboot.TestbootApplication - Started TestbootApplication in 1.104 seconds (process running for 1.309)
+2025-03-20 11:26:42.257 [http-nio-9090-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20 11:26:42.291 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-20 11:26:42.352 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ebb723e
+2025-03-20 11:26:42.352 [http-nio-9090-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
