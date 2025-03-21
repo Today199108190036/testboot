@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.testboot.mapper.StudentMapper">
+
+    <resultMap id="BaseResultMap" type="com.test.testboot.entity.Student">
+            <id property="id" column="id" />
+            <result property="name" column="name" />
+            <result property="sex" column="sex" />
+            <result property="birth" column="birth" />
+            <result property="department" column="department" />
+            <result property="address" column="address" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,sex,birth,department,address
+    </sql>
+    <!--通过id更新Student的地址-->
+    <update id="updateById" parameterType="com.test.testboot.entity.Student">
+        update test.student
+        set address = #{address,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <!--通过id更新Student-->
+    <update id="updateByIdAll">
+        update test.student
+        set name = #{name,jdbcType=VARCHAR},
+            sex = #{sex,jdbcType=VARCHAR},
+            birth = #{birth,jdbcType=INTEGER},
+            department = #{department,jdbcType=VARCHAR},
+            address = #{address,jdbcType=VARCHAR}
+        where id = #{id,jdbcType=INTEGER}
+    </update>
+
+    <!--通过id删除Student-->
+    <delete id="deleteById" parameterType="com.test.testboot.entity.Student">
+        delete
+        from test.student
+        where id = #{id,jdbcType=INTEGER}
+    </delete>
+
+    <!--查询所有Student-->
+    <select id="selectAll" resultType="com.test.testboot.entity.Student">
+        select s.id, s.name, s.sex, s.birth, s.department, s.address
+        from test.student s
+    </select>
+
+    <!--通过id查询Student-->
+    <select id="selectById" resultType="com.test.testboot.entity.Student">
+        select s.id, s.name, s.sex, s.birth, s.department, s.address
+        from test.student s
+        where s.id = #{id,jdbcType=INTEGER}
+    </select>
+</mapper>

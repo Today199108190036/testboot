@@ -14,17 +14,20 @@
     <sql id="Base_Column_List">
         id,stu_id,c_name,grade
     </sql>
+
     <!--通过id插入score-->
     <insert id="insertById" parameterType="com.test.testboot.entity.Score">
         insert into test.score (id, stu_id, c_name, grade)
         values (#{id,jdbcType=INTEGER}, #{stuId,jdbcType=INTEGER}, #{cName,jdbcType=VARCHAR}, #{grade,jdbcType=INTEGER})
     </insert>
+
     <!--通过id修改score-->
     <update id="updateById" parameterType="com.test.testboot.entity.Score">
         update test.score
         set grade = #{grade,jdbcType=INTEGER}
         where id = #{id,jdbcType=INTEGER}
     </update>
+
     <!--通过id修改score全数据-->
     <update id="updateByIdAll" parameterType="com.test.testboot.entity.Score">
         update test.score
@@ -33,12 +36,14 @@
             grade  = #{grade,jdbcType=INTEGER}
         where id = #{id,jdbcType=INTEGER}
     </update>
+
     <!--通过id删除score-->
     <delete id="deleteById" parameterType="com.test.testboot.entity.Score">
         delete
         from test.score
         where id = #{id,jdbcType=INTEGER}
     </delete>
+
     <!--查询所有score-->
     <select id="selectAll" resultType="com.test.testboot.entity.Score">
         select s.id, s.stu_id, s.c_name, s.grade

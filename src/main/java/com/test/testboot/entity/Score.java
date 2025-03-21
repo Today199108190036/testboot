@@ -11,7 +11,6 @@ import lombok.Data;
 @TableName(value ="score")
 @Data
 public class Score {
-
     @TableId(type = IdType.AUTO)
     private Integer id;
 

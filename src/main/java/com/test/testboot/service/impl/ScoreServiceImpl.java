@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class ScoreServiceImpl extends ServiceImpl<ScoreMapper, Score>
     implements ScoreService{
-    protected static Logger logger= (Logger) LoggerFactory.getLogger(ScoreServiceImpl.class);
+    public static Logger logger= (Logger) LoggerFactory.getLogger(ScoreServiceImpl.class);
 
     @Resource
     private ScoreMapper scoreMapper;

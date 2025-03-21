@@ -11,8 +11,7 @@ spring:
     password: zx6923531
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
   jpa:
-    hibernate:
-      ddl-auto:update
+    hibernate: ddl-auto:update
     show-sql: true
   data:
     redis:
@@ -26,6 +25,21 @@ spring:
           max-wait: -1  # 最大阻塞等待时间（负数表示没有限制）
           max-idle: 5  # 连接池中最大空闲连接
           min-idle: 0  # 连接池中最小空闲连接
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      retries: 3
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: tomge-consumer-group
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      auto-commit-interval: 100
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 #mybatis依赖
 mybatis:
   #MyBatis Configuration确保在 application.properties 或 application.yml 文件中指定了正确的映射文件路径
