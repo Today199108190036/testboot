@@ -56,12 +56,12 @@ public class StudentController {
         }
         return Result.success(false);
     }
-//
-//    @PutMapping("/insertById")
-//    public Result insertById(Score score){
-//        if(scoreService.insertById(score)){
-//            return Result.success(true);
-//        }
-//        return Result.success(false);
-//    }
+    @PutMapping("/insertById")
+    public Result insertById(Student student){
+        if(studentService.insertById(student)){
+            return Result.success(true);
+        }
+        return Result.success(false);
+    }
+
 }

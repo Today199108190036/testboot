@@ -16,6 +16,12 @@
     <sql id="Base_Column_List">
         id,name,sex,birth,department,address
     </sql>
+    <!--插入Student数据-->
+    <insert id="insertById" parameterType="com.test.testboot.entity.Student">
+        insert into test.student (id, name, sex, birth, department, address)
+        values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{sex,jdbcType=VARCHAR}, #{birth,jdbcType=INTEGER},
+                #{department,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR})
+    </insert>
     <!--通过id更新Student的地址-->
     <update id="updateById" parameterType="com.test.testboot.entity.Student">
         update test.student

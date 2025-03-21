@@ -69,6 +69,18 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
         }
         return flag;
     }
+
+    @Override
+    public boolean insertById(Student student) {
+        boolean flag = false;
+        try {
+            studentMapper.insertById(student);
+            flag = true;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return flag;
+    }
 }
 
 
