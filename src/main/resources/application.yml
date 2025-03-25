@@ -17,6 +17,7 @@ spring:
     redis:
       host: 127.0.0.1
       port: 6379  # 端口号
+      password: zx6923531
       database: 0  # 数据库索引（默认为0）
       timeout: 1800000  # 连接超时时间（毫秒）
       lettuce:
@@ -40,6 +41,8 @@ spring:
       auto-commit-interval: 100
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    template:
+      default-topic: testtopic
 #mybatis依赖
 mybatis:
   #MyBatis Configuration确保在 application.properties 或 application.yml 文件中指定了正确的映射文件路径

@@ -369,3 +369,5 @@ java.sql.SQLException: Field 'id' doesn't have a default value
 2025-03-21 14:26:44.922 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6da6df9e
 2025-03-21 14:26:44.923 [http-nio-9090-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
 2025-03-21 14:27:36.101 [http-nio-9090-exec-3] INFO  com.test.testboot.controller.StudentController - [Student [Hash = -489008237, id=907, name=埃森江, sex=男, birth=2025, department=计算机系, address=新疆维吾尔自治区伊犁哈萨克自治州]]
+2025-03-21 14:47:23.094 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-21 14:47:23.098 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

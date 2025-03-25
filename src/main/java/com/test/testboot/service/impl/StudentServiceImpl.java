@@ -2,9 +2,12 @@ package com.test.testboot.service.impl;
 
 import ch.qos.logback.classic.Logger;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.test.testboot.entity.Student;
 import com.test.testboot.service.StudentService;
 import com.test.testboot.mapper.StudentMapper;
+import com.test.testboot.utils.RedisUtil;
 import jakarta.annotation.Resource;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
@@ -24,6 +27,9 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     @Resource
     private StudentMapper studentMapper;
 
+    @Resource
+    private RedisUtil redisUtil;
+
     @Override
     public List<Student> selectAll() {
         return studentMapper.selectAll();
@@ -32,6 +38,26 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     @Override
     public List<Student> selectById(int id) {
         return studentMapper.selectById(id);
+    }
+
+    @Override
+    public List<Student> findById(int id) {
+        String key = "student:id" + id;
+        //判断key是否在缓存中存在
+        boolean isExist = redisUtil.hasKey(key);
+        if(isExist){
+            //如果在缓存中存在，直接获取并返回
+            return getStudentListFromRedis(key);
+        }else {
+            // 不存在缓存，先从数据库中获取，再保存至 Redis，最后返回用户
+            List<Student> list = studentMapper.selectById(id);
+            logger.info(list.toString());
+            if (list != null) {
+                // 将数据放入缓存
+                setStudentListToRedis(key, list);
+            }
+            return list;
+        }
     }
 
     @Override
@@ -80,6 +106,29 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
             throw new RuntimeException(e);
         }
         return flag;
+    }
+
+    public List<Student> getStudentListFromRedis(String key) {
+        try {
+            String json = (String) redisUtil.get(key);
+            if (json != null) {
+                ObjectMapper objectMapper = new ObjectMapper();
+                return objectMapper.readValue(json, new TypeReference<List<Student>>() {});
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void setStudentListToRedis(String key, List<Student> studentList) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            String json = objectMapper.writeValueAsString(studentList);
+            redisUtil.set(key, json);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
 

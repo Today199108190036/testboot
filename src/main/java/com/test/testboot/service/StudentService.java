@@ -15,6 +15,8 @@ public interface StudentService extends IService<Student> {
 
     List<Student> selectById(int id);
 
+    List<Student> findById(int id);
+
     boolean deleteById(int id);
 
     boolean updateById(int id, String address);
