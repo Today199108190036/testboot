@@ -48,7 +48,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
         if(isExist){
             //如果在缓存中存在，直接获取并返回
             return getStudentListFromRedis(key);
-        }else {
+        } else {
             // 不存在缓存，先从数据库中获取，再保存至 Redis，最后返回用户
             List<Student> list = studentMapper.selectById(id);
             logger.info(list.toString());

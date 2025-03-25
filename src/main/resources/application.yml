@@ -42,7 +42,9 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     template:
-      default-topic: testtopic
+      default-topic: testtopic,testtopic2
+    listener:
+      ack-mode: manual_immediate
 #mybatis依赖
 mybatis:
   #MyBatis Configuration确保在 application.properties 或 application.yml 文件中指定了正确的映射文件路径
