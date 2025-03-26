@@ -42,7 +42,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
 
     @Override
     public List<Student> findById(int id) {
-        String key = "student:id" + id;
+        String key = "student:id:" + id;
         //判断key是否在缓存中存在
         boolean isExist = redisUtil.hasKey(key);
         if(isExist){
