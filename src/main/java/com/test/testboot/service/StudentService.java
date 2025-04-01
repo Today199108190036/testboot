@@ -24,4 +24,8 @@ public interface StudentService extends IService<Student> {
     boolean updateByIdAll(int id, String name, String sex, int birth, String department, String address);
 
     boolean insertById(Student student);
+
+    List<Student> getStudentListFromRedis(String key);
+
+    void setStudentListToRedis(String key, List<Student> studentList);
 }

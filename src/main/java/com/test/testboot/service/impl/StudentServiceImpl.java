@@ -108,6 +108,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
         return flag;
     }
 
+    @Override
     public List<Student> getStudentListFromRedis(String key) {
         try {
             String json = (String) redisUtil.get(key);
@@ -121,6 +122,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
         return null;
     }
 
+    @Override
     public void setStudentListToRedis(String key, List<Student> studentList) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();

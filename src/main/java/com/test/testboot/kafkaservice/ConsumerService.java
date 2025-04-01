@@ -61,7 +61,7 @@ public class ConsumerService {
      * @param message canal发送的mysql数据变化的消息
      */
     @KafkaListener(topics = "testtopic2")
-    public void canalconsumeMessage(String message) {
+    public void canalconsumerMessage(String message) {
         try {
             CanalModel model = CanalContext.getModel();
             logger.info("CanalModel: " + model);
