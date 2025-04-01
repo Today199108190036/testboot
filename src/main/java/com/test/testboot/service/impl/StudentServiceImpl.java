@@ -2,7 +2,6 @@ package com.test.testboot.service.impl;
 
 import ch.qos.logback.classic.Logger;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.test.testboot.entity.Student;
 import com.test.testboot.service.StudentService;
@@ -12,6 +11,7 @@ import jakarta.annotation.Resource;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -22,7 +22,7 @@ import java.util.List;
 @Service
 public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     implements StudentService{
-    public static Logger logger= (Logger) LoggerFactory.getLogger(ScoreServiceImpl.class);
+    public static Logger logger= (Logger) LoggerFactory.getLogger(StudentServiceImpl.class);
 
     @Resource
     private StudentMapper studentMapper;
@@ -114,7 +114,8 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
             String json = (String) redisUtil.get(key);
             if (json != null) {
                 ObjectMapper objectMapper = new ObjectMapper();
-                return objectMapper.readValue(json, new TypeReference<List<Student>>() {});
+                Student student = objectMapper.readValue(json, Student.class);
+                return Collections.singletonList(student);
             }
         } catch (Exception e) {
             e.printStackTrace();
