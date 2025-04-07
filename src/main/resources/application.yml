@@ -30,6 +30,11 @@ spring:
     bootstrap-servers: localhost:9092
     producer:
       retries: 3
+      retry:
+        backoff:
+          ms: 100
+      enable:
+        idempotence: true
       batch-size: 16384
       buffer-memory: 33554432
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
@@ -50,6 +55,9 @@ spring:
       base-url: http://localhost:11434
       chat:
         model: deepseek-r1:8b
+    chat:
+      client:
+        enabled: true
 
 dubbo:
   application:

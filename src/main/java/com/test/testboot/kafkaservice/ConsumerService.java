@@ -121,8 +121,15 @@ public class ConsumerService {
      * @param value 学生信息（JSON 字符串）
      */
     private void handleInsert(String id, String value) {
+        // 判断 Redis 中是否存在指定的 id
+        String key = "student:id:" + id;
+        if (redisUtil.hasKey(key)) {
+            // 如果存在，先删除再插入数据
+            redisUtil.del(key);
+            logger.info("Redis操作Delect成功 - id: {}", id);
+        }
         redisUtil.set("student:id:" + id, value);
-        logger.info("INSERT 操作成功 - id: {}, value: {}", id, value);
+        logger.info("Redis操作INSERT成功 - id: {}, value: {}", id, value);
     }
 
     /**
@@ -132,8 +139,16 @@ public class ConsumerService {
      * @param value 学生信息（JSON 字符串）
      */
     private void handleUpdate(String id, String value) {
+        // 判断 Redis 中是否存在指定的 id
+        String key = "student:id:" + id;
+        if (redisUtil.hasKey(key)) {
+            // 如果存在，先删除再插入数据
+            redisUtil.del(key);
+            logger.info("Redis操作Delect成功 - id: {}", id);
+        }
+        // 如果不存在，直接插入数据
         redisUtil.set("student:id:" + id, value);
-        logger.info("UPDATE 操作成功 - id: {}, value: {}", id, value);
+        logger.info("Redis操作Update成功 - id: {}, value: {}", id, value);
     }
 
     /**

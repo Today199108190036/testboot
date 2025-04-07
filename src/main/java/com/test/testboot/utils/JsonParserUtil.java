@@ -4,7 +4,11 @@ import ch.qos.logback.classic.Logger;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.google.common.hash.HashCode;
 import org.slf4j.LoggerFactory;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class JsonParserUtil {
 
@@ -38,4 +42,14 @@ public class JsonParserUtil {
         JSONObject jsonObject = JSON.parseObject(jsonString);
         return jsonObject.getJSONArray("data");
     }
+
+//    public static void main(String[] args) {
+//        int i = 1;
+//        System.out.println(HashCode.fromInt(i));
+//        System.out.println(HashCode.fromInt(1));
+//        System.out.println(HashCode.fromInt(2));
+//        System.out.println(HashCode.fromLong(1L));
+//        System.out.println(HashCode.fromString("6923531"));
+//        Set set = new HashSet();
+//    }
 }
