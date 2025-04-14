@@ -20,7 +20,7 @@ public interface StudentMapper extends BaseMapper<Student> {
 
     boolean updateById(int id, String address);
 
-    boolean updateByIdAll(int id, String name, String sex, int birth, String department, String address);
+    boolean updateByIdAll(Student student);
 
     boolean insertById(Student student);
 }

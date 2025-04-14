@@ -10,6 +10,7 @@ import com.test.testboot.utils.RedisUtil;
 import jakarta.annotation.Resource;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Collections;
 import java.util.List;
@@ -31,28 +32,33 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     private RedisUtil redisUtil;
 
     @Override
+    @Transactional
     public List<Student> selectAll() {
         return studentMapper.selectAll();
     }
 
     @Override
+    @Transactional
     public List<Student> selectById(int id) {
         return studentMapper.selectById(id);
     }
 
     @Override
+    @Transactional
     public List<Student> findById(int id) {
         String key = "student:id:" + id;
         //判断key是否在缓存中存在
         boolean isExist = redisUtil.hasKey(key);
         if(isExist){
             //如果在缓存中存在，直接获取并返回
+            logger.info("判断缓存是否存在:" + redisUtil.get(key) + isExist);
             return getStudentListFromRedis(key);
         } else {
             // 不存在缓存，先从数据库中获取，再保存至 Redis，最后返回用户
             List<Student> list = studentMapper.selectById(id);
-            logger.info(list.toString());
-            if (list != null) {
+            logger.info(String.valueOf(list.size())
+            );
+            if (list.size() != 0) {
                 // 将数据放入缓存
                 setStudentListToRedis(key, list);
             }
@@ -61,6 +67,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     }
 
     @Override
+    @Transactional
     public boolean deleteById(int id) {
         boolean flag = false;
         try {
@@ -73,6 +80,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     }
 
     @Override
+    @Transactional
     public boolean updateById(int id, String address) {
         boolean flag = false;
         try {
@@ -85,10 +93,11 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     }
 
     @Override
-    public boolean updateByIdAll(int id, String name, String sex, int birth, String department, String address) {
+    @Transactional
+    public boolean updateByIdAll(Student student) {
         boolean flag = false;
         try {
-            studentMapper.updateByIdAll(id, name, sex, birth, department, address);
+            studentMapper.updateByIdAll(student);
             flag = true;
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -97,6 +106,7 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student>
     }
 
     @Override
+    @Transactional
     public boolean insertById(Student student) {
         boolean flag = false;
         try {

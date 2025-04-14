@@ -1,12 +1,29 @@
 package com.test.testboot.common;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
 //统一设置包装类，返回数据的类型
+@Schema(description = "响应返回数据对象")
 public class Result {
     //状态码
+    @Schema(
+            title = "code",
+            description = "响应码",
+            format = "int32",
+            requiredMode = Schema.RequiredMode.REQUIRED
+    )
     private Integer code;
     //消息
+    @Schema(
+            title = "msg",
+            description = "响应信息",
+            accessMode = Schema.AccessMode.READ_ONLY,
+            example = "成功或失败",
+            requiredMode = Schema.RequiredMode.REQUIRED
+    )
     private String message;
     //数据
+    @Schema(title = "data", description = "响应数据", accessMode = Schema.AccessMode.READ_ONLY)
     private Object data;
 
     public static Result success(){

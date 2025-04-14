@@ -52,4 +52,18 @@ public class JsonParserUtil {
 //        System.out.println(HashCode.fromString("6923531"));
 //        Set set = new HashSet();
 //    }
+//    public static void main(String[] args) {
+//        int [] array = {19,2,25,8,15,7,1,14};
+//        for (int i : array){
+//            Thread t = new Thread(() ->{
+//                try{
+//                   Thread.sleep(i);
+//                   System.out.print(i + " ");
+//                } catch (Exception e) {
+//                    throw new RuntimeException(e);
+//                }
+//            });
+//            t.start();
+//        }
+//    }
 }

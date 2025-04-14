@@ -27,7 +27,7 @@ spring:
           max-idle: 5  # 连接池中最大空闲连接
           min-idle: 0  # 连接池中最小空闲连接
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: 127.0.0.1:9092
     producer:
       retries: 3
       retry:
@@ -58,6 +58,9 @@ spring:
     chat:
       client:
         enabled: true
+#  mvc:
+#    pathmatch:
+#      matching-strategy: ant_path_matcher
 
 dubbo:
   application:
@@ -85,3 +88,13 @@ logging:
     com.test: info
     org.springframework: warn
   config: classpath:logback-spring.xml
+
+springdoc:
+  api-docs:
+    enabled: true # 开启OpenApi接口
+    path: /v3/api-docs  # 自定义路径，默认为 "/v3/api-docs"
+  swagger-ui:
+    enabled: true # 开启swagger界面，依赖OpenApi，需要OpenApi同时开启
+    path: /swagger-ui.html # 自定义路径，默认为"/swagger-ui/index.html"
+    # Packages to include,多个用 , 分割
+    packagesToScan: com.test.testboot.controller.StudentController

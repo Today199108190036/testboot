@@ -3,6 +3,8 @@ package com.test.testboot.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
@@ -10,18 +12,21 @@ import lombok.Data;
  */
 @TableName(value ="student")
 @Data
+@AllArgsConstructor
+@Schema(title = "学生模型VO", description = "响应视图学生模型VO")
 public class Student {
     @TableId(type = IdType.AUTO)
+    @Schema(name = "id", description = "学生ID属性", format = "int64", example = "1")
     private Integer id;
-
+    @Schema(name = "name", description = "学生姓名属性", example = "jack")
     private String name;
-
+    @Schema(name = "sex", description = "学生性别属性", example = "男")
     private String sex;
-
+    @Schema(name = "birth", description = "学生生日属性", example = "1991")
     private Object birth;
-
+    @Schema(name = "department", description = "学生专业属性", example = "计算机专业")
     private String department;
-
+    @Schema(name = "address", description = "学生地址属性", example = "安徽合肥")
     private String address;
 
     public Integer getId() {
