@@ -10,7 +10,7 @@ import lombok.Data;
 /**
  * @TableName student
  */
-@TableName(value ="student")
+@TableName(value ="student2")
 @Data
 @AllArgsConstructor
 @Schema(title = "学生模型VO", description = "响应视图学生模型VO")

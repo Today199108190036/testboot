@@ -1,25 +1,27 @@
 package com.test.testboot;
 
 import com.test.testboot.service.DateService;
+import lombok.RequiredArgsConstructor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
 @SpringBootApplication
 @MapperScan("com.test.testboot.mapper")
+@Component
+@RequiredArgsConstructor
 public class TestbootApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(TestbootApplication.class, args);
     }
-
     @Bean
     public ToolCallbackProvider addressDateTools(DateService dateService) {
         return MethodToolCallbackProvider.builder()
                 .toolObjects(dateService).build();
     }
-
 }

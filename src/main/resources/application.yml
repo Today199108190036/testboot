@@ -10,6 +10,12 @@ spring:
     username: root
     password: zx6923531
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+#  hikari:
+#    maximum-pool-size: 20
+#    minimum-idle: 5
+#    idle-timeout: 30000
+#    max-lifetime: 1800000
+#    connection-timeout: 30000
   jpa:
     hibernate: ddl-auto:update
     show-sql: true
@@ -97,4 +103,8 @@ springdoc:
     enabled: true # 开启swagger界面，依赖OpenApi，需要OpenApi同时开启
     path: /swagger-ui.html # 自定义路径，默认为"/swagger-ui/index.html"
     # Packages to include,多个用 , 分割
-    packagesToScan: com.test.testboot.controller.StudentController
+    packagesToScan: com.test.testboot.controller
+
+# 自定义配置
+#migration: 1000
+#
